@@ -6,8 +6,8 @@ const PORT = 8000;
 
 const authRoute = require("./Routes/authRoute");
 
-// Booting the server up
-const app = express();
+// Booting the server up and confgurationconst 
+app = express();
 app.use(cors());
 app.use(express.json());
 
